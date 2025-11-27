@@ -1,10 +1,10 @@
 import streamlit as st
 
-st.title("Simple DevOps Dashboard")
-st.write("This is version 1.0")
+st.title("DevOps Dashboard")
+st.write("Version 1.1 - Simple Update")
 
-name = st.text_input("Your name here")
+name = st.text_input("Enter your name:")
 if name:
-    st.success(f"Hello, {name}!")
+    st.success(f"Hello, {name}! Welcome back ")
 
-st.metric("Builds", "5")
+st.metric("Builds", "7")     # Changed from 5 to 7
