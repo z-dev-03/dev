@@ -13,3 +13,5 @@ if page == "Home":
 else:
     st.subheader("Settings")
     st.write("Configure your dashboard preferences here")
+
+st.metric("New Metric", "42")
